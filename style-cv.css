@@ -60,6 +60,7 @@ html{
                         border-radius: 50%;
                         box-shadow: 0 0 30px white,
                         15px 0 30px black;
+                        cursor: zoom-in;
                     }
 
 
@@ -72,7 +73,11 @@ html{
                 a{
                     width:auto;
                     color: #dbc2a4;
-                    text-decoration: none;
+                    text-decoration:none;
+                }
+
+                a:hover{
+                    text-decoration:underline;
                 }
 
                 .webdev{
@@ -170,16 +175,16 @@ html{
                     margin-bottom: 2rem;
                     padding-left: 20px;  
                 }
+
+                    .border:hover{
+                        border-right: solid #782221;
+                    }
                 
                 .diploma{
                     margin-bottom: 2rem;
                     text-align: justify;
                     padding-left: 20px
                 }            
-
-                    .BAC{
-                        padding-left: 20px;
-                    }
                 
                     .competence{
                         padding-left: 20px;
@@ -210,6 +215,10 @@ html{
 
                 .icon{
                     display: flex;
+                }
+
+                .icon:hover{
+                    opacity: 0.8;
                 }
 
                     img{
