@@ -16,12 +16,12 @@ body{
     width: 1160px;
     height: auto;
     margin: auto;
+    font-family: 'raleway';
+    font-size: medium;
 }
     header{
             background-color: #782221;
             color: #dbc2a4;
-            font-family: 'raleway';
-            font-size: 20px;
             display: flex;
             flex-direction: column;
 
@@ -79,6 +79,7 @@ body{
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
+                text-align: justify;
             }
 
         main{
@@ -157,3 +158,4 @@ body{
                 footer a:hover{
                     opacity: 0.8;
                 }
+            
